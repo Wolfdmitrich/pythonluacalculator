@@ -1278,13 +1278,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
- Name = "Shadow Step",
- Callback = function()
-        game:GetService("Players").LocalPlayer.Backpack["Shadow Step"].LocalScript.Event:FireServer()
-   end    
-})
-
-Tab:AddButton({
  Name = "Infinity Void",
  Callback = function()
 game:GetService("ReplicatedStorage").Infinity:FireServer()
